@@ -32,17 +32,14 @@ const temps = moment().format('HH:mm:ss');
 const date = moment().format('DD/MM/YYYY');
 
   let infoMsg =  `
-╭────✧${s.BOT}✧────◆
+╭━༻𝑪𝒀𝑩𝑬𝑹_𝑾𝑨𝑹𝑹𝑰𝑶𝑹༺⊰━─
 │   *Préfix* : ${s.PREFIXE}
 │   *Owner* : ${s.OWNER_NAME}
 │   *Mode* : ${mode}
 │   *Commands* : ${cm.length}
 │   *Date* : ${date}
 │   *Hour* : ${temps}
-│   *Mémoire* : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
-│   *Plateforme* : ${os.platform()}
-│   *Développer* : Djalega++ 
-│  & M๏𝓷keℽ D Lบffy
+│   *Développer* : 𝑪𝒀𝑩𝑬𝑹_𝑾𝑨𝑹𝑹𝑰𝑶𝑹
 ╰─────✧WA-BOT✧─────◆ \n\n`;
     
 let menuMsg = `
@@ -53,23 +50,18 @@ let menuMsg = `
 `;
 
     for (const cat in coms) {
-        menuMsg += `╭────❏ ${cat} ❏`;
+        menuMsg += `╭━༻ ${cat} ༺⊰━─`;
         for (const cmd of coms[cat]) {
             menuMsg += `
-│ ${cmd}`;
+✫ ${cmd}`;
         }
         menuMsg += `
-╰═════════════⊷ \n`
+╰─────✧WA-BOT✧─────◆ \n`
     }
 
     menuMsg += `
-◇            ◇
-*»»————— ★ —————««*
-"To use a command, insert ${prefixe} followed by the command_name."
- 
-    Powered by Zokou-MD
-                                                
-*»»————— ★ —————««*
+╭━༻𝑪𝒀𝑩𝑬𝑹_𝑾𝑨𝑹𝑹𝑰𝑶𝑹༺⊰━─
+🌸🤭- " 𝐀 𝐅ɑkə 𝐒mıɭə 𝐂ɑη ┣𝐥ıdə  𝐌ıɭɭıoηs 𝐎f 𝐓əɑrs ||%❤😚
 `;
 
    var lien = mybotpic();
