@@ -5,7 +5,7 @@ style.tools.creepify.options.maxHeight = 10;
 
 function createMap(chars) {
   var alphanum = [
-    "a",
+    "å",
     "b",
     "c",
     "d",
