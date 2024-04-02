@@ -75,7 +75,7 @@ async function addOrUpdateDataInAlive(message, lien) {
         return null;
       }
     } catch (error) {
-      console.error("Erreur lors de la récupération des données depuis la table 'alive':", error);
+      console.error("Errer lors de la récupération des données depuis la table 'alive':", error);
       return null;
     } finally {
       client.release();
