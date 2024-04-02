@@ -18,7 +18,7 @@ async function getytlink(key) {
       id : choix.videoId,
     }  ;
   } catch (erreur) {
-    console.error('Erreur lors de la recherche YouTube :', erreur);
+    console.error('Error lors de la recherche YouTube :', erreur);
     return null;
   }
 }
